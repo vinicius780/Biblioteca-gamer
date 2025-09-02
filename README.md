@@ -1,12 +1,38 @@
-# React + Vite
+# 🎮 Biblioteca de Games em React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação simples feita com **React** para gerenciar uma coleção de games.  
+Permite adicionar, remover e salvar os games usando **Local Storage**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- ➕ Adicionar novos games à coleção  
+- ❌ Remover games cadastrados  
+- 💾 Persistência com **Local Storage** (os dados não se perdem ao atualizar a página)  
+- ⚛️ Componentização com React  
+- 🪝 Uso de **custom hooks** para organizar a lógica  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- [React](https://react.dev/)  
+- Local Storage  
+
+---
+
+## 📂 Como rodar o projeto
+
+```bash
+# Clone este repositório
+git clone https://github.com/seu-usuario/nome-do-repo.git
+
+# Entre na pasta do projeto
+cd nome-do-repo
+
+# Instale as dependências
+npm install
+
+# Rode a aplicação
+npm start
